@@ -1,0 +1,24 @@
+{
+  "packageDirectories": [
+    {
+      "path": "force-app",
+      "default": false,
+      "package": "Simple Gauge",
+      "versionName": "ver 1.0",
+      "versionNumber": "1.2.0.NEXT",
+      "versionDescription": "Simple Gauge Component"
+    }
+  ],
+  "namespace": "efrontforce",
+  "sfdcLoginUrl": "https://login.salesforce.com",
+  "sourceApiVersion": "48.0",
+  "packageAliases": {
+    "Simple Gauge": "0Ho1t0000010wCxCAI",
+    "Simple Gauge@0.1.0-1": "04t1t000003randAAA",
+    "Simple Gauge@1.0.0-1": "04t1t000003raniAAA",
+    "Simple Gauge@1.0.0-2": "04t1t000003rannAAA",
+    "Simple Gauge@1.0.0-3": "04t1t000003ransAAA",
+    "Simple Gauge@1.1.0-1": "04t1t000003ranxAAA",
+    "Simple Gauge@1.2.0-1": "04t1t000003raoRAAQ"
+  }
+}

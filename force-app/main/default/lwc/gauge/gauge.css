@@ -1,0 +1,67 @@
+.container {
+  width: 200px;
+  height: 100px;
+  top: 50%;
+  left: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+  text-align: center;
+  transform: translate(0%, 0%);
+}
+
+.gauge-a {
+  z-index: 1;
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.2);
+  width: 200px;
+  height: 100px;
+  top: 0%;
+  border-radius: 120px 120px 0px 0px;
+  background-color: #f1f1f0;
+}
+
+.gauge-b {
+  z-index: 3;
+  background-color: white;
+  position: absolute;
+  width: 120px;
+  height: 65px;
+  top: 40px;
+  margin-left: 40px;
+  margin-right: auto;
+  border-radius: 120px 120px 0px 0px;
+}
+
+.gauge-c {
+  z-index: 2;
+  position: absolute;
+  width: 200px;
+  height: 100px;
+  top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 0px 0px 100px 100px;
+  transform-origin: center top;
+}
+
+.gauge-data {
+  z-index: 4;
+  color: black;
+  font-weight: bold;
+  font-size: 2em;
+  line-height: 25px;
+  position: absolute;
+  width: 200px;
+  height: 100px;
+  top: 65px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.error-message {
+  color: red;
+  margin-top: 8px;
+  text-align: center;
+  top: 10%;
+}

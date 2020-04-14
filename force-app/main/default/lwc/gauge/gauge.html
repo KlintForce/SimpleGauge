@@ -1,0 +1,17 @@
+<template>
+  <lightning-card title={title}>
+    <div class="container">
+      <div class="gauge-a"></div>
+      <div class="gauge-b"></div>
+      <div class="gauge-c" style={styleGaugeC}></div>
+      <div class="gauge-data">
+        <h1>{value}%</h1>
+      </div>
+    </div>
+    <template if:true={error}>
+      <div class="error-message">
+        ⚠️ {error}
+      </div>
+    </template>
+  </lightning-card>
+</template>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>48.0</apiVersion>
+    <masterLabel>Simple Gauge</masterLabel>
+    <isExposed>true</isExposed>
+    <targets>
+        <target>lightning__RecordPage</target>
+    </targets>
+    <targetConfigs>
+        <targetConfig targets="lightning__RecordPage">
+            <property
+              name="title"
+              label="Title"
+              description="Title"
+              type="String"
+              default="Gauge"
+            />
+            <property
+              name="inputFieldApiName"
+              label="Field API Name"
+              description="Field API Name"
+              placeholder="Enter a field of type Percent"
+              type="String"
+            />
+            <property
+              name="limit1"
+              label="Limit 1"
+              description="First limit that will define the gauge color"
+              type="Integer"
+              default="33"
+              min="0"
+              max="100"
+            />
+            <property
+              name="limit2"
+              label="Limit 2"
+              description="Second limit that will define the gauge color"
+              type="Integer"
+              default="66"
+              min="0"
+              max="100"
+            />
+            <property
+              name="gaugeColor1"
+              label="Gauge color (0 to Limit 1)"
+              description="Color of the gauge when the value is between 0 and Limit 1"
+              placeholder="Gauge color (0 to Limit 1)"
+              type="String"
+              datasource="silver,gray,black,red,maroon,yellow,olive,lime,green,aqua,teal,blue,navy,fuchsia,purple"
+              default="red"
+            />
+            <property
+              name="gaugeColor2"
+              label="Gauge color (Limit 1 to Limit 2)"
+              description="Color of the gauge when the value is between Limit 1 and Limit 2"
+              placeholder="Gauge color (Limit 1 to Limit 2)"
+              type="String"
+              datasource="silver,gray,black,red,maroon,yellow,olive,lime,green,aqua,teal,blue,navy,fuchsia,purple"
+              default="yellow"
+            />
+            <property
+              name="gaugeColor3"
+              label="Gauge color (Limit 2 to 100)"
+              description="Color of the gauge when the value is between Limit 2 and 100"
+              placeholder="Gauge color (Limit 2 to 100)"
+              type="String"
+              datasource="silver,gray,black,red,maroon,yellow,olive,lime,green,aqua,teal,blue,navy,fuchsia,purple"
+              default="green"
+            />
+        </targetConfig>
+    </targetConfigs>
+</LightningComponentBundle>
