@@ -10,5 +10,5 @@ Go get it it's free 🆓 on [AppExchange](https://appexchange.salesforce.com/app
 
 #### Blog posts 📰 on Medium 
 
-* [My first app⚡on the Salesforce ☁️ AppExchange](https://medium.com/efrontforce/my-first-app-on-the-salesforce-%EF%B8%8Fappexchange-d667f30d6ca9)
+* [My first app ⚡ on the Salesforce ☁️ AppExchange](https://medium.com/efrontforce/my-first-app-on-the-salesforce-%EF%B8%8Fappexchange-d667f30d6ca9)
 * [Ma première application ⚡ sur le Salesforce ☁️ AppExchange](https://medium.com/efrontforce/ma-première-application-sur-le-salesforce-%EF%B8%8Fappexchange-c4861d69267f)
