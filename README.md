@@ -6,7 +6,7 @@
 
 Display percent 💯 fields in a more visual way using the Simple Gauge Lightning Web Component ⚡ 
 
-Go get it it's free 🆓 on [AppExchange](https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3A00000FgcboUAB) 🛒
+Go get it now! it's free 🆓 on [AppExchange](https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3A00000FgcboUAB) 🛒
 
 #### Blog posts 📰 on Medium 
 
