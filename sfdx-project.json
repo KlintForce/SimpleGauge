@@ -2,7 +2,7 @@
   "packageDirectories": [
     {
       "path": "force-app",
-      "default": false,
+      "default": true,
       "package": "Simple Gauge",
       "versionName": "ver 1.0",
       "versionNumber": "1.2.0.NEXT",
