@@ -1,4 +1,4 @@
-import { LightningElement, api, track, wire } from "lwc";
+import { LightningElement, api, wire } from "lwc";
 import { getRecord } from "lightning/uiRecordApi";
 import { getObjectInfo } from "lightning/uiObjectInfoApi";
 
@@ -17,9 +17,9 @@ export default class Gauge extends LightningElement {
   @api gaugeColor1;
   @api gaugeColor2;
   @api gaugeColor3;
-  @track gaugeColor;
-  @track value = 0;
-  @track error;
+  gaugeColor;
+  value = 0;
+  error;
   fieldValue;
 
   /**
