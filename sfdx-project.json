@@ -11,7 +11,7 @@
   ],
   "namespace": "efrontforce",
   "sfdcLoginUrl": "https://login.salesforce.com",
-  "sourceApiVersion": "48.0",
+  "sourceApiVersion": "52.0",
   "packageAliases": {
     "Simple Gauge": "0Ho1t0000010wCxCAI",
     "Simple Gauge@0.1.0-1": "04t1t000003randAAA",
